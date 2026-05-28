@@ -1,0 +1,147 @@
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+  background: #111;
+
+  color: white;
+
+  font-family: Arial;
+
+}
+
+.app {
+
+  width: 400px;
+
+  margin: 50px auto;
+
+}
+
+.title {
+
+  text-align: center;
+
+  margin-bottom: 20px;
+
+}
+
+.search-input {
+
+  width: 100%;
+
+  margin-bottom: 15px;
+
+  padding: 10px;
+
+  background: #222;
+
+  color: white;
+
+  border: none;
+
+  box-sizing: border-box;
+
+}
+
+.input-container {
+
+  display: flex;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+
+}
+
+input {
+
+  flex: 1;
+
+  padding: 10px;
+
+  background: #222;
+
+  color: white;
+
+  border: none;
+
+}
+
+button {
+
+  padding: 10px 15px;
+
+  background: #333;
+
+  color: white;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+.reminder-list {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+}
+
+.reminder-card {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  background: #222;
+
+  padding: 15px;
+
+}
+
+.reminder-info {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+
+}
+
+.reminder-time {
+
+  color: #888;
+
+  font-size: 14px;
+
+}
+
+.delete-button {
+
+  background: transparent;
+
+  border: none;
+
+  color: #888;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+}
+
+.delete-button:hover {
+
+  color: white;
+
+}
